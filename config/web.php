@@ -7,6 +7,7 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    'controllerNamespace' => 'cat\\controllers',
     'defaultRoute' => 'cat/index',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
