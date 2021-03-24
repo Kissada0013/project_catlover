@@ -32,13 +32,16 @@ $config = [
         'db' => $db,
     ],
     'params' => $params,
-    /*
+
     'controllerMap' => [
-        'fixture' => [ // Fixture generation command line.
-            'class' => 'yii\faker\FixtureController',
+        'heroku' => [
+            'class' => 'purrweb\heroku\HerokuGeneratorController',
         ],
+//        'fixture' => [ // Fixture generation command line.
+//            'class' => 'yii\faker\FixtureController',
+//        ],
     ],
-    */
+
 ];
 
 if (YII_ENV_DEV) {

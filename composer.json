@@ -40,7 +40,8 @@
         "symfony/browser-kit": ">=2.7 <=4.2.4",
         "codeception/module-filesystem": "^1.0.0",
         "codeception/module-yii2": "^1.0.0",
-        "codeception/module-asserts": "^1.0.0"
+        "codeception/module-asserts": "^1.0.0",
+        "purrweb/yii2-heroku": "*"
     },
     "config": {
         "process-timeout": 1800,
@@ -50,7 +51,8 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "yii\\composer\\Installer::postInstall"
+            "yii\\composer\\Installer::postInstall",
+            "sh post-install-cmd.sh"
         ],
         "post-create-project-cmd": [
             "yii\\composer\\Installer::postCreateProject",
