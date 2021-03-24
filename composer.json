@@ -3,7 +3,7 @@
     "description": "Yii 2 Basic Project Template",
     "keywords": ["yii2", "framework", "basic", "project template"],
     "homepage": "http://www.yiiframework.com/",
-    "type": "project",
+    "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
         "issues": "https://github.com/yiisoft/yii2/issues?state=open",
@@ -28,7 +28,9 @@
         "2amigos/yii2-google-maps-library": "*",
         "kartik-v/yii2-widget-select2": "dev-master",
         "yii2mod/yii2-sweet-alert": "*",
-        "kartik-v/yii2-widget-fileinput": "dev-master"
+        "kartik-v/yii2-widget-fileinput": "dev-master",
+        "fxp/composer-asset-plugin":"*",
+        "ext-gd": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",
@@ -69,8 +71,16 @@
             ]
         },
         "yii\\composer\\Installer::postInstall": {
+            "copyFiles": [
+                {
+                    "config/templates/console-local.php": "config/console-local.php",
+                    "config/templates/web-local.php": "config/web-local.php",
+                    "config/templates/db-local.php": "config/db-local.php",
+                    "config/templates/cache.json": ["runtime/cache.json", true]
+                }
+            ],
             "generateCookieValidationKey": [
-                "config/web.php"
+                "config/web-local.php"
             ]
         }
     },
