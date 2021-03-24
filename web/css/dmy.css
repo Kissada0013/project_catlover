@@ -1,0 +1,63 @@
+/*carendar-x*/
+
+.calendar-x-day{
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+.calendar-x-btn{
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 0 5px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.header-calendar-x{
+    flex: 1;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #a7b1b6;
+}
+
+.body-calendar-date{
+    font-weight: 600;
+    width: 14.28%;
+    padding: 10px;
+}
+
+.body-calendar-date .now-date, .body-calendar-date .date-x, .body-calendar-date .date-now-x{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.now-date{
+    background: #006666;
+    color: #fff;
+}
+.date-now-x{
+    background: #ffbc00;
+    color: #fff;
+}
+.body-calendar-date .date-x:hover, .body-calendar-date .now-date:hover{
+    background: rgba(0, 102, 102, 0.40);
+    color: #fff;
+}
+
+.date-x-last{
+    color: #bfcbd1;
+}
+
+.body-period{
+    position: relative;
+}
+
+.period-activity{
+    position: absolute;
+    width: 85%;
+    right: 0;
+}

@@ -1,0 +1,28 @@
+
+.flex{
+    display: flex;
+    background: #46667b;
+    width: 100%;
+    height: calc(80vh);
+}
+.cardcat{
+    display: flex;
+    width: 31%;
+    height: 400px;
+
+    margin: 40px 10px;
+    border-radius: 10px;
+    position: relative;
+
+    border: 5px solid transparent;
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border: double 4px transparent;
+    background-image: linear-gradient(white, white),
+    radial-gradient(circle at top left, #fff7e2, #cacafe);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
