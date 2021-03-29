@@ -7,6 +7,7 @@ use yii\helpers\Url;
 use yii\widgets\Pjax;
 use kartik\widgets\ActiveForm;
 use richardfan\widget\JSRegister;
+
 use yii\web\JqueryAsset;
 use kartik\select2\Select2;
 use app\helper\Helper;
@@ -64,7 +65,7 @@ $this->registerCssFile('@web/css/modalcat.css', ['depends' => [JqueryAsset::clas
 <div class="container1" style="margin: 0px 200px;font-size: 22px">
 
 
-    <div class="container grid-flex site-contact" style="margin-top: 50px">
+    <div class=" grid-flex site-contact" style="margin-top: 50px">
         <div class="grid-flex grid-flex-2">
             <div class="grid-flex-3" style="text-align: center;align-content: center;font-size: 36px">
                 โปรไฟล์ร้าน
@@ -77,7 +78,7 @@ $this->registerCssFile('@web/css/modalcat.css', ['depends' => [JqueryAsset::clas
     </div>
 
 
-    <div class="container grid-flex site-contact" style="margin-top: 50px">
+    <div class=" grid-flex site-contact" style="margin-top: 50px">
         <div class="grid-flex grid-flex-2">
             <div class="grid-flex-3" style="text-align: center;align-content: center">
                 <img class="image-cat" src="<?= $model->image_path ?>">
@@ -113,7 +114,7 @@ $this->registerCssFile('@web/css/modalcat.css', ['depends' => [JqueryAsset::clas
 
 
 
-                    <label style="width: 52%;margin-left: 30px;font-weight: 100;font-size: 28px"> <?= Helper::formatPhoneThai($model->phone)  ?></label>
+                    <label style="width: 52%;margin-left: 30px;font-weight: 100;font-size: 28px"> <?= $model->phone  ?></label>
                 </div>
 
 
@@ -136,7 +137,7 @@ $this->registerCssFile('@web/css/modalcat.css', ['depends' => [JqueryAsset::clas
 
 
 
-        <div class="container grid-flex site-contact" style="margin-top: 50px">
+        <div class="grid-flex site-contact" style="margin-top: 50px">
             <div class="grid-flex grid-flex-2">
                 <div class="grid-flex-3" style="text-align: center;align-content: center;font-size: 36px">
                     ข้อมูลการโอนเงิน

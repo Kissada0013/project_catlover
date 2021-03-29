@@ -19,7 +19,6 @@ use yii\widgets\DetailView;
 $this->registerJsFile('@web/js/main.js', ['depends' => [JqueryAsset::className()]]);
 $this->registerCssFile('@web/css/cat.css', ['depends' => [JqueryAsset::className()]]);
 $this->registerCssFile('@web/css/grid.css', ['depends' => [JqueryAsset::className()]]);
-
 //$this->title = 'Cats';
 //$this->params['breadcrumbs'][] = $this->title;
 

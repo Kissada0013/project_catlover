@@ -44,7 +44,7 @@ $form = ActiveForm::begin([
 
 
     <div class="container1" style="margin: 0px 200px;font-size: 22px">
-        <div class="container grid-flex site-contact" style="margin-top: 50px">
+        <div class="grid-flex site-contact" style="margin-top: 50px;">
             <div class="grid-flex grid-flex-2">
                 <div class="grid-flex-3" style="text-align: center;align-content: center;font-size: 36px">
                     รีวิว
@@ -62,10 +62,10 @@ $form = ActiveForm::begin([
         </div>
 
 
-        <div class="container" style="border: 1px solid black; width: 30%">
+        <div class="" style="border: 1px solid black; margin: 0 540px;justify-content: center">
 
 
-            <div class="container grid-flex site-contact" style="padding-top: 10px">
+            <div class=" grid-flex site-contact" style="padding-top: 10px">
 
 
                 <div class="grid-flex grid-flex-2" style="justify-content: center">
@@ -77,7 +77,7 @@ $form = ActiveForm::begin([
             </div>
 
 
-            <div class="container grid-flex site-contact" style="margin-top: 5%">
+            <div class=" grid-flex site-contact" style="margin-top: 5%">
 
 
                 <div class="grid-flex grid-flex-1" style="justify-content: center">

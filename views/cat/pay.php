@@ -40,19 +40,17 @@ $this->registerCssFile('@web/css/modalcat.css', ['depends' => [JqueryAsset::clas
 
 
     <div class="container1" style="margin: 0px 200px">
-    <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="img01">
-
-        <div id="caption"></div>
-    </div>
-
-
-    <div class="container" style="border: 1px solid black; width: 30%">
+<!--    <div id="myModal" class="modal">-->
+<!--        <span class="close">&times;</span>-->
+<!--        <img class="modal-content" id="img01">-->
+<!---->
+<!--        <div id="caption"></div>-->
+<!--    </div>-->
 
 
-        <div class="container grid-flex site-contact" style="padding-top: 10px">
+    <div class="" style="border: 1px solid black; width: 30%;margin-left: 36%">
 
+        <div class=" grid-flex site-contact" style="padding-top: 10px">
 
             <div class="grid-flex grid-flex-2" style="justify-content: center">
 
@@ -62,8 +60,7 @@ $this->registerCssFile('@web/css/modalcat.css', ['depends' => [JqueryAsset::clas
 
         </div>
 
-
-        <div class="container grid-flex site-contact" style="margin-top: 5%">
+        <div class=" grid-flex site-contact" style="margin-top: 5%">
 
 
             <div class="grid-flex grid-flex-1" style="justify-content: center">
@@ -96,7 +93,7 @@ $this->registerCssFile('@web/css/modalcat.css', ['depends' => [JqueryAsset::clas
         </div>
 
 
-        <div class="container grid-flex site-contact" style="margin-top: 5%">
+        <div class=" grid-flex site-contact" style="margin-top: 5%">
 
 
             <div class="grid-flex grid-flex-2" style="justify-content: center">

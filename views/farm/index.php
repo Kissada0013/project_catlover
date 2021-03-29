@@ -17,7 +17,9 @@ $this->title = 'ฟาร์ม';
         <h1><?= Html::encode($this->title) ?></h1>
 
         <p>
-            <?= Html::a('เพิ่มฟาร์ม', ['create'], ['class' => 'btn btn-success']) ?>
+            <?php if (Yii::$app->user->can('Admin')) { ?>
+                <?= Html::a('เพิ่มฟาร์ม', ['create'], ['class' => 'btn btn-success']) ?>
+            <?php } ?>
         </p>
 
 

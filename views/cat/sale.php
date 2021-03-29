@@ -47,18 +47,18 @@ $this->title = 'ยอดขาย';
 
     <div class="container1" style="margin: 0px 100px;font-size: 22px">
         <h1><?= Html::encode($this->title) ?></h1>
-        <div class="container grid-flex site-contact" style="margin-top: 50px">
+        <div class=" grid-flex site-contact" style="margin-top: 50px">
             <div class="grid-flex grid-flex-2">
                 <div class="grid-flex-3" style="text-align: center;align-content: center;font-size: 36px">
                     รายวัน
                 </div>
             </div>
         </div>
-        <div class="container grid-flex site-contact" >
+        <div class=" grid-flex site-contact" >
 
 
             <div class="grid-flex grid-flex-2" style="justify-content: center;margin-top: 54px" >
-                <div class="container grid-flex site-contact" style="margin-top: 5%">
+                <div class=" grid-flex site-contact" style="margin-top: 5%;width: 100%">
 
 
                     <div class="grid-flex grid-flex-1" style="justify-content: center">
@@ -105,21 +105,21 @@ $this->title = 'ยอดขาย';
 
 
 
-        <div class="container grid-flex site-contact">
+        <div class=" grid-flex site-contact">
             <div class="grid-flex grid-flex-2">
                 <div class="grid-flex-3" style="text-align: center;align-content: center;font-size: 36px">
                     รายเดือน
                 </div>
             </div>
         </div>
-        <div class="container grid-flex site-contact" >
+        <div class=" grid-flex site-contact" >
 
             <div class="grid-flex grid-flex-2">
                 <canvas id="bar-chart-grouped2" width="500px" height="240px"></canvas>
 
             </div>
             <div class="grid-flex grid-flex-2" style="justify-content: center;margin-top: 54px" >
-                <div class="container grid-flex site-contact" style="margin-top: 5%">
+                <div class=" grid-flex site-contact" style="margin-top: 5%;width: 100%">
 
 
                     <div class="grid-flex grid-flex-1" style="justify-content: center">
@@ -166,18 +166,18 @@ $this->title = 'ยอดขาย';
 
 
 
-        <div class="container grid-flex site-contact">
+        <div class=" grid-flex site-contact">
             <div class="grid-flex grid-flex-2">
                 <div class="grid-flex-3" style="text-align: center;align-content: center;font-size: 36px">
                     รายปี
                 </div>
             </div>
         </div>
-        <div class="container grid-flex site-contact" >
+        <div class=" grid-flex site-contact" >
 
 
             <div class="grid-flex grid-flex-2" style="justify-content: center;margin-top: 54px" >
-                <div class="container grid-flex site-contact" style="margin-top: 5%">
+                <div class=" grid-flex site-contact" style="margin-top: 5%;width: 100%">
 
 
                     <div class="grid-flex grid-flex-1" style="justify-content: center">
@@ -225,7 +225,7 @@ $this->title = 'ยอดขาย';
 
 
 
-        <div class="container grid-flex site-contact">
+        <div class=" grid-flex site-contact">
             <div class="grid-flex grid-flex-2">
                 <div class="grid-flex-3" style="text-align: center;align-content: center;font-size: 36px">
                     แมวที่ขายไม่ได้

@@ -55,7 +55,7 @@ $this->registerCssFile('@web/css/modalcat.css', ['depends' => [JqueryAsset::clas
     <?php $form = ActiveForm::begin(); ?>
 
 
-    <div class="container grid-flex site-contact" style="margin-top: 50px">
+    <div class=" grid-flex site-contact" style="margin-top: 50px">
         <div class="grid-flex grid-flex-2">
             <div class="grid-flex-3" style="text-align: center;align-content: center;font-size: 22px">
                 โปรไฟล์
@@ -68,7 +68,7 @@ $this->registerCssFile('@web/css/modalcat.css', ['depends' => [JqueryAsset::clas
     </div>
 
 
-    <div class="container grid-flex site-contact" style="margin-top: 50px">
+    <div class=" grid-flex site-contact" style="margin-top: 50px">
         <div class="grid-flex grid-flex-2">
             <div class="grid-flex-3" style="text-align: center;align-content: center">
                 <img class="image-cat" src="<?= $model->img_path ?>">

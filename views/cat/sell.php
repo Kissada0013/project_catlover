@@ -49,7 +49,7 @@ $this->registerCssFile('@web/css/modalcat.css', ['depends' => [JqueryAsset::clas
     </div>
 
 
-    <div class="container grid-flex site-contact" >
+    <div class=" grid-flex site-contact" >
 
 
         <div class="grid-flex grid-flex-2" style="justify-content: center" >

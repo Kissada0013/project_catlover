@@ -16,6 +16,7 @@ use app\assets\AppAsset;
 use yii\widgets\ActiveForm;
 
 $this->registerCssFile('@web/css/loading.css', ['depends' => [JqueryAsset::className()]]);
+$this->registerCssFile('@web/css/bootstrap.css', ['depends' => [JqueryAsset::className()]]);
 
 AppAsset::register($this);
 ?>
@@ -53,7 +54,7 @@ JSRegister::end();
 <body>
 <?php $this->beginBody() ?>
 
-<div class="wrap">
+<div class="wrap" >
     <?php
     if (Yii::$app->requestedRoute == 'site/login') {
 

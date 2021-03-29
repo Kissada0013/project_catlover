@@ -74,7 +74,7 @@ $this->registerCssFile('@web/css/modalcat.css', ['depends' => [JqueryAsset::clas
 </style>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 <div class="container1" style="margin: 0px 100px;font-size: 22px">
-    <div class="container grid-flex site-contact" style="margin-top: 50px">
+    <div class=" grid-flex site-contact" style="margin-top: 50px">
         <div class="grid-flex grid-flex-2">
             <div class="grid-flex-3" style="text-align: center;align-content: center;font-size: 36px">
                 รีวิวน้องแมว

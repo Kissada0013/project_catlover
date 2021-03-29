@@ -79,7 +79,7 @@ $this->registerCssFile('@web/css/grid.css', ['depends' => [JqueryAsset::classNam
 
 <div class="container1" style="margin-left: 200px ; margin-right: 200px;margin-bottom: 200px;font-size: 22px">
 
-    <div class="container grid-flex site-contact" style="margin-top: 50px">
+    <div class=" grid-flex site-contact" style="margin-top: 50px">
         <div class="grid-flex grid-flex-2">
             <div class="grid-flex-3" style="text-align: center;align-content: center;font-size: 36px">
                 น้องแมวที่ขายแล้ว
