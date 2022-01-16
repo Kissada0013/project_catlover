@@ -267,12 +267,13 @@ $this->title = 'ยอดขาย';
                     </td>
                     <td >
                         <?php
-                        echo $uncat['cost_price']
+                        echo number_format($uncat['cost_price']);
+
                         ?>
                     </td>
                     <td>
                         <?php
-                        echo $uncat['price']
+                        echo number_format($uncat['price']);
                         ?>
                     </td>
                 </tr>

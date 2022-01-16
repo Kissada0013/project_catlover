@@ -60,7 +60,7 @@ $this->registerCssFile('@web/css/modalcat.css', ['depends' => [JqueryAsset::clas
             <div class="grid-flex-3" style="text-align: center;align-content: center">
                 <h4><?= $model->name ?></h4>
 
-                <h4>ราคา <?= $model->price ?> บาท</h4>
+                <h4>ราคา <?= number_format($model->price) ?> บาท</h4>
 
 
                 <div class="farm">

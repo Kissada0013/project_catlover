@@ -51,7 +51,9 @@ use yii\helpers\Html;
                             <span class="p-name" style="font-size: 20px;padding-left: 15px;font-weight: 700; text-align: left"  ><?= $model->name ?></span>
                             <source src="<?= $model->video ?>" type="video/mp4">
                             <span class="p-company"  style="font-size: 16px;padding-left: 15px; text-align: left"><?= $model->type ?></span>
-                            <span class="p-company"  style="font-size: 16px;padding-left: 15px; text-align: left"><?= $model->price ?></span>
+                            <span class="p-company"  style="font-size: 16px;padding-left: 15px; text-align: left"><?=
+                                 number_format($model->price);
+                                 ?></span>
 
 
 

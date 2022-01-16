@@ -79,5 +79,6 @@
             "type": "composer",
             "url": "https://asset-packagist.org"
         }
-    ]
+    ],
+    "johnsnook/yii2-ip-filter" : "*"
 }
